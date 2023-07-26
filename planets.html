@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<STYLE>
+  body{
+    background-image:url("galaxy.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed ;
+  
+  }
+  img{
+   width:100%;
+   height:350px;
+  }
+  a{
+text-decoration: none;
+color:black;
+  }
+
+.container {
+  display:flex;
+  align-items: center;
+  flex-flow: row wrap;
+  gap: 40px; 
+  overflow:hidden;
+ /* margin-left:auto ;
+  margin-right:auto ;*/
+}
+
+.tile {
+  background:linear-gradient(45deg,rgb(43, 43, 43),black);
+  margin: 5px;
+  padding: 20px;
+  width: 350px;
+  color:antiquewhite;
+  font-family:monospace;
+
+}
+.tile:hover{
+background:linear-gradient(45deg,rgb(118, 116, 116),black);
+color:white;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+box-shadow:0px 25px 20px 15px rgb(241, 49, 52);
+transition-property: all;
+transition-duration: 2s;
+transition-delay: 0.01s;
+
+
+}
+.textover{
+  position:relative;
+  top:0;
+  left:0;
+}
+.text{
+  margin: 0%;
+  position: absolute;
+  top:40px;
+  left:80px;
+  color: azure;
+  animation:text 4s linear infinite ;
+  }
+ .text h1{
+ font-size:4vw;
+ background:linear-gradient(34deg,rgb(240, 57, 33),rgb(242, 235, 54),rgb(243, 83, 80));
+ background-clip:initial;
+ -webkit-background-clip:text ;
+ -webkit-text-fill-color:transparent;
+ }
+.title +p{
+  text-align: justify;
+}
+h3{
+  animation: forwards;
+  transition-duration: 5s;
+}
+.foot{
+  background-color: red;
+  text-align: center;
+  text-shadow: 13px 6px 5px black;
+  color: azure;
+  width:100%;
+  height:80px;
+}
+
+</STYLE>
+</head>
+<body>
+  <div class="textover">
+    <img src="planets.jpg">
+    <div class="text"><h1>Let Us Know About Our Solar System</h1>
+    <h3>click on each box to see the planet vfx</h3></div>
+</div>
+<div class="container">
+  <a href="forms.html" target="_blank"><div class="tile"><h1>Sun</h1><p>Our Sun is a 4.5 billion-year-old star a hot glowing ball of hydrogen and helium at the center of our solar system. The Sun is about 93 million miles (150 million kilometers) from Earth, and without its energy, life as we know it could not exist here on our home planet.</p></div></a> 
+    <div class="tile"><h1>Mercury</h1><p>A day on Mercury is not like a day here on Earth. For us, the sun rises and sets each and every day. Because Mercury has a slow spin and short year, it takes a long time for the sun to rise and set there. Mercury only has one sunrise every 180 Earth days! Isn't that weird?</p></div>
+    <div class="tile"><h1>venus</h1><p>Venus has a thick, toxic atmosphere filled with carbon dioxide and it's perpetually shrouded in thick, yellowish clouds of sulfuric acid that trap heat, causing a runaway greenhouse effect. It's the hottest planet in our solar system, even though Mercury is closer to the Sun.</p></div>
+    <div class="tile"><h1>earth</h1><p>It has a solid and active surface with mountains, valleys, canyons, plains and so much more. Earth is special because it is an ocean planet. Water covers 70% of Earth's surface. Earth's atmosphere is made mostly of nitrogen and has plenty of oxygen for us to breathe.</p></div>
+    <div class="tile"><h1>Mars</h1>Mars is the fourth planet and the furthest terrestrial planet from the Sun. The reddish color of its surface is due to finely grained iron(III) oxide dust in the soil, giving it the nickname "the Red Planet".[21][22] Mars's radius is second smallest among the planets in the Solar System at 3,389.5 km (2,106 mi). It has a surface gravity of 3.72 m/s2 (12.2 ft/s2), which is 38% of Earth's gravity. </div>
+    <div class="tile"><h1>Jupiter</h1><p>Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a gas giant with a mass more than two and a half times that of all the other planets in the Solar System combined, and slightly less than one one-thousandth the mass of the Sun. Jupiter is the third brightest natural object in the Earth's night sky after the Moon and Venus, and it has been observed since prehistoric times. It was named after Jupiter, the chief deity of ancient Roman religion.</p></div>
+    <div class="tile"><h1>Saturn</h1><p>Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter. Saturn's interior is thought to be composed of a rocky core, surrounded by a deep layer of metallic hydrogen, an intermediate layer of liquid hydrogen and liquid helium, and finally, a gaseous outer layer. Saturn has a pale yellow hue due to ammonia crystals in its upper atmosphere. An electrical current within the metallic hydrogen layer is thought to give rise to Saturn's planetary magnetic field, </p></div>
+    <div class="tile"><h1>Urenus</h1><p>Uranus is the seventh planet from the Sun and is a gaseous cyan ice giant. Most of the planet is made out of water, ammonia, and methane in a supercritical phase of matter, which in astronomy is called 'ice' or volatiles. The planet's atmosphere has a complex layered cloud structure and has the lowest minimum temperature of 49 K (−224 °C; −371 °F) out of all Solar System's planets. It has a marked axial tilt of 97.8° with a retrograde rotation rate of 17 hours</p></div>
+      <div class="tile"><h1>Neptune</h1><p>Neptune is the eighth planet from the Sun and the farthest known planet in the Solar System. It is the fourth-largest planet in the Solar System by diameter, the third-most-massive planet, and the densest giant planet. It is 17 times the mass of Earth, and slightly more massive than its near-twin Uranus. Neptune is denser and physically smaller than Uranus because its greater mass causes more gravitational compression of its atmosphere. Being composed primarily of gases and liquids, it has no well-defined solid surface. </p></div>
+      <div class="tile"><h1>Pluto</h1><p>Pluto has a moderately eccentric and inclined orbit, ranging from 30 to 49 astronomical units (4.5 to 7.3 billion kilometers; 2.8 to 4.6 billion miles) from the Sun. Light from the Sun takes 5.5 hours to reach Pluto at its orbital distance of 39.5 AU (5.91 billion km; 3.67 billion mi). Pluto's eccentric orbit periodically brings it closer to the Sun than Neptune, but a stable orbital resonance prevents them from colliding.</p></div>
+    </div>
+    <div class="foot">
+     <p>This is a short note about solar system .when you clck on the each planet you will get the brief data about that planet </p>
+    </div>
+</body>
+</html>
