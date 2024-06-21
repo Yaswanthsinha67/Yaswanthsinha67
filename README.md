@@ -2,7 +2,7 @@
 - 👀 I’m interested in devloping softwares
 - 🌱 I’m currently learning fullstack java 
 - 💞️ I’m looking to collaborate on web devlopment
-- 📫 How to reach me yashupandu6798@gmail.com
+- 📫 How to reach me yashpandu6798@gmail.com
 
 <!---
 Yaswanthsinha67/Yaswanthsinha67 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
